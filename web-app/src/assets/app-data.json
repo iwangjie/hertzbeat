@@ -24,6 +24,20 @@
       ]
     },
     {
+      "text": "Guide",
+      "i18n": "menu.integration",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "Dashboard",
+          "i18n": "menu.integration.data-vines",
+          "icon": "anticon-database",
+          "link": "/integration/data-vines"
+        }
+      ]
+    },
+    {
       "key": "monitoring",
       "text": "Monitoring",
       "i18n": "menu.monitor",

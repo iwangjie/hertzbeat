@@ -1,6 +1,10 @@
 {
   "menu": {
     "main": "主导航",
+    "integration": {
+      "": "集成",
+      "data-vines": "Datavines"
+    },
     "lang": "语言",
     "dashboard": "仪表盘",
     "search.placeholder": "搜索监控任务：任务名称、HOST等",
