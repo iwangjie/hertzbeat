@@ -1,6 +1,13 @@
 {
   "menu": {
     "main": "主導航",
+    "integration": {
+      "": "集成",
+      "dashboard": "集成儀表盤",
+      "data-vines": "Datavines",
+      "grafana": "监控大盤",
+      "i-monitoring": "自研监控"
+    },
     "lang": "語言",
     "dashboard": "儀表盤",
     "search.placeholder": "搜索監控任務：任務名稱、HOST等",

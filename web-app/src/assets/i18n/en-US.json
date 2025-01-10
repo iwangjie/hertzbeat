@@ -1,6 +1,13 @@
 {
   "menu": {
     "main": "Main",
+    "integration": {
+      "": "Integration",
+      "dashboard": "Dashboard",
+      "data-vines": "Datavines",
+      "grafana": "Grafana",
+      "i-monitoring": "Vov"
+    },
     "lang": "Language",
     "dashboard": "DashBoard",
     "search.placeholder": "Search：Monitoring Task: Name、Host etc",

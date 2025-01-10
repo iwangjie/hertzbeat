@@ -40,6 +40,7 @@ const routes: Routes = [
       { path: 'lock', component: UserLockComponent, data: { titleI18n: 'app.lock' } }
     ]
   },
+  { path: 'integration', loadChildren: () => import('./integration/integration.module').then(m => m.IntegrationModule) },
   { path: '**', redirectTo: 'exception/404' }
 ];
 

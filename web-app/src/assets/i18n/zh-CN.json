@@ -1,6 +1,13 @@
 {
   "menu": {
     "main": "主导航",
+    "integration": {
+      "": "集成",
+      "dashboard": "仪表盘",
+      "data-vines": "Datavines",
+      "grafana": "监控大盘",
+      "i-monitoring": "自研监控"
+    },
     "lang": "语言",
     "dashboard": "仪表盘",
     "search.placeholder": "搜索监控任务：任务名称、HOST等",

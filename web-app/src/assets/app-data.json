@@ -24,6 +24,38 @@
       ]
     },
     {
+      "text": "Guide",
+      "i18n": "menu.integration",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "Dashboard",
+          "i18n": "menu.integration.dashboard",
+          "icon": "anticon-dashboard",
+          "link": "/integration/dashboard"
+        },
+        {
+          "text": "Dashboard",
+          "i18n": "menu.integration.data-vines",
+          "icon": "anticon-database",
+          "link": "/integration/data-vines"
+        },
+        {
+          "text": "Grafana",
+          "i18n": "menu.integration.grafana",
+          "icon": "anticon-cloud-server",
+          "link": "/integration/grafana"
+        },
+        {
+          "text": "i-monitoring",
+          "i18n": "menu.integration.i-monitoring",
+          "icon": "anticon-windows",
+          "link": "/integration/i-monitoring"
+        }
+      ]
+    },
+    {
       "key": "monitoring",
       "text": "Monitoring",
       "i18n": "menu.monitor",
