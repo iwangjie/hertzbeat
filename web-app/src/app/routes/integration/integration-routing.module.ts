@@ -1,18 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IntegrationComponent } from './integration.component';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DataVinesDashboardComponent } from './data-vines/data-vines.component';
+import { GrafanaComponent } from './grafana/grafana.component';
+import { IMonitoringComponent } from './imonitoring/i-monitoring.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: IntegrationComponent,
-    children: [
-      { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-      { path: 'dashboard', component: DashboardComponent },
-      // 在此添加更多子路由
-    ],
+    path: 'dashboard',
+    component: DashboardComponent
   },
+  {
+    path: 'data-vines',
+    component: DataVinesDashboardComponent
+  },
+  {
+    path: 'grafana',
+    component: GrafanaComponent
+  },
+  {
+    path: 'i-monitoring',
+    component: IMonitoringComponent
+  }
 ];
 
 @NgModule({

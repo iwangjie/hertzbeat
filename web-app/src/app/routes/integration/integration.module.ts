@@ -1,17 +1,18 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
 import { IntegrationRoutingModule } from './integration-routing.module';
-import { IntegrationComponent } from './integration.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DataVinesDashboardComponent } from './data-vines/data-vines.component';
 
 
 @NgModule({
   declarations: [
-    IntegrationComponent
   ],
   imports: [
     CommonModule,
-    IntegrationRoutingModule
+    IntegrationRoutingModule,
+    DashboardComponent,
   ]
 })
 export class IntegrationModule { }

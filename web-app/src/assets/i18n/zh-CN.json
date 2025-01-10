@@ -4,7 +4,7 @@
     "integration": {
       "": "集成",
       "dashboard": "仪表盘",
-      "data-vines": "Datavines",
+      "data-vines": "数据监控",
       "grafana": "监控大盘",
       "i-monitoring": "自研监控"
     },

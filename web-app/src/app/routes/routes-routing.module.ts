@@ -20,6 +20,7 @@ const routes: Routes = [
     children: [
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
       { path: 'dashboard', component: DashboardComponent, data: { titleI18n: 'menu.dashboard' } },
+      { path: 'integration', loadChildren: () => import('./integration/integration.module').then(m => m.IntegrationModule) },
       { path: 'bulletin', component: BulletinComponent, data: { titleI18n: 'menu.dashboard' } },
       { path: 'exception', loadChildren: () => import('./exception/exception.module').then(m => m.ExceptionModule) },
       { path: 'monitors', loadChildren: () => import('./monitor/monitor.module').then(m => m.MonitorModule) },
